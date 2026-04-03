@@ -2,8 +2,8 @@ import csv
 f=open("Student.csv","w",newline='')
 writer=csv.writer(f)
 writer.writerow(["Name","Marks"])
-writer.writerow(["Amit","85"])
-writer.writerow(["Riya","90"])
+writer.writerow(["suyash","85"])
+writer.writerow(["Parth","90"])
 
 f.close()
 f=open("Student.csv","r")
